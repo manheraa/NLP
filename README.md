@@ -4,10 +4,6 @@
 ## Task Catagorization
 Task Categorization is a project that classifies tasks into predefined categories based on their descriptions. It utilizes machine learning techniques to automate task classification, improving efficiency and accuracy.
 
-## Features
-- Automatic classification of tasks into categories
-- Preprocessing of textual task descriptions
-- Model training and evaluation
 ## Installation of Task Catagorization app
 ```bash
 pip install -r requirements.txt
