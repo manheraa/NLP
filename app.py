@@ -1,12 +1,3 @@
-import spacy
-import subprocess
-
-# Ensure the model is downloaded
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
-    nlp = spacy.load("en_core_web_sm")  # Reload after downloading
 
 import streamlit as st
 import spacy
