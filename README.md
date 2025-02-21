@@ -1,6 +1,19 @@
 ## Task Categorization:https video://drive.google.com/file/d/1v8Bs0YeQ_7q8F239sdFZFWc64exFGz3L/view?usp=drive_link
 ## Sentiment Analysis video:https://drive.google.com/file/d/1Fw6rjDVODtUrBbCUSZAZS2Jw6xzVxomS/view?usp=drive_link
 """
+## Task Catagorization
+Task Categorization is a project that classifies tasks into predefined categories based on their descriptions. It utilizes machine learning techniques to automate task classification, improving efficiency and accuracy.
+
+## Features
+- Automatic classification of tasks into categories
+- Preprocessing of textual task descriptions
+- Model training and evaluation
+## Installation of Task Catagorization app
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+streamlit run app.py
+```
 # IMDB Sentiment Analysis Dataset
 
 The dataset used in this project is the **IMDB Movie Reviews Dataset**, which contains **50,000 movie reviews** labeled as **positive (pos) or negative (neg)**. It is commonly used for sentiment analysis tasks.
